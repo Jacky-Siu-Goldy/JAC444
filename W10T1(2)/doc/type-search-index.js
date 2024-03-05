@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"w10.tm","l":"ThreadMatrices"}];updateSearchResults();
