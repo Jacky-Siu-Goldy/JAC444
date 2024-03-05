@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GuessTheNumController">
+   <children>
+      <HBox prefHeight="165.0" prefWidth="600.0" />
+      <Label fx:id="bottomLabel" layoutX="186.0" layoutY="218.0" text="Please enter your first guess.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userInputTextField" layoutX="250.0" layoutY="267.0" prefHeight="27.0" prefWidth="78.0" />
+      <StackPane layoutX="-2.0" layoutY="107.0" prefHeight="160.0" prefWidth="602.0">
+         <children>
+            <Label fx:id="topLabel" text="I have a number between 1 and 1000. Can you guess my number?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <Button fx:id="enterAndPlayAgainButton" layoutX="244.0" layoutY="322.0" mnemonicParsing="false" onAction="#enterAndPlayAgainButtonPressed" prefWidth="90.0" text="Enter" />
+   </children>
+</AnchorPane>

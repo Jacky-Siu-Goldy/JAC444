@@ -1,0 +1,26 @@
+/**********************************************
+Workshop # 6
+Course: JAC444 - Semester Winter 2023
+Last Name: Siu
+First Name: Chun Kit Jacky
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-03-17
+**********************************************/
+
+I ran into trouble creating javadoc and don't know how to fix it.
+Beside that creating program for workshop 6 task1 and task2
+required a lot of thought and it took me more than a week
+to figure out how to do it. Figuring out how to change the
+stage and pane and scene took alot of searching on the internet.
+Figuring out the regular expression also took a lot of time.
+It took me sometime to figure out I need a play trigger for
+the game guess the number, so that when I press play again 
+it restarts the game. Also initializing the random number
+and changing the random number when the game finish before another
+game start. That part was tricky. Integrating other separate class's method
+from to a normal java file into the a button event handler in the controller
+took some getting  use to familiarize yourself with how it is done. 
+

@@ -1,0 +1,23 @@
+/**********************************************
+Workshop # 8
+Course: JAC444 - Winter 2023
+Last Name: Siu
+First Name: Jacky Chun Kit 
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-03-29
+**********************************************/
+
+In workshop 8 we worked on writing 4 lambda expressions
+and a function that returns a lambda expression as its value
+I had not problem coming up with the lambda expressions, but 
+figuring out how to get the Gui working properly was the 
+hardest part of the workshop and i didn't get it quite right.
+All the buttons works fine except the count button.
+It was suppose to be disabled if the input in the textfield doesn't
+meet the requirement of a double with 1 or 2 decimal places and when the 
+ListView is not empty. The count button will still activate when you input 
+something like 0000.98 or .98 so it wasn't quite right, but i ran out 
+of time to fix it.

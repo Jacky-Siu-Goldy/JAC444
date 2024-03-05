@@ -1,0 +1,27 @@
+/**********************************************
+Workshop # 3
+Course: JAC444 - Semester
+Last Name: Siu
+First Name: Chun Kit Jacky
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-02-15
+**********************************************/
+
+In this workshop i learned how to use abstraction to generalize code at the top
+of the inheritance pyramid and avoid code duplication further down the chain
+of the inheritance hierarchy. This allow for flexibility for any changes in inherited
+behavior you want to incorporate into the child that is similar but different
+from the parent. 
+
+There is something i am confuse about does a child of a child need to implement
+a method that has be declare an abstract method in the abstract class at the top 
+of inheritance, if the child of the superclass already implement it? I 
+experiment with that question and find out that The child of
+a child of the superclass, I find doesn't necessary have to implement a method 
+that has been declared an abstract method, if its parent the child of the superclass
+already implemented it. In that case you only need to implement it if you want the 
+child's method to override the parent method, otherwise you can leave it as it is and 
+the program will run.

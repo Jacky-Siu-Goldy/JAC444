@@ -1,0 +1,15 @@
+/**********************************************
+Workshop #
+Course:JAC444 - winter 2023
+Last Name:Siu
+First Name:Jacky Chun Kit
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-02-01
+**********************************************/
+
+I had trouble figuring out how to decrypt the encrypted 4 digits string. Lucky I went to the lab otherwise i wouldn't have know how to do it.
+I also did not know i was not suppose to use the command line to input the 4 digits string. After the professor told me that i am suppose to allow 
+for user input using Scanner scan = new Scanner(System.in); String something = scan.nextLine(); I was able to correct that mistake.

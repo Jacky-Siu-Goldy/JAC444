@@ -1,0 +1,32 @@
+/**********************************************
+Workshop # 4
+Course: JAC444 - Semester Winter 2023
+Last Name: Siu
+First Name: Chun Kit Jacky
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-02-22
+**********************************************/
+
+In this Workshop I practiced using interface and throwing and catching exceptions.
+Interface is a completely abstract class. Its attributes are public static and final, I
+feature that i did not used. The methods declared in an interface does not have a body.
+The body is provided by the subclasses that implements the interface.In this workshop
+case the abstract methods are toString() and getPaymentAmount(). Interface cannot 
+have a constructor and cannot create objects. 
+An interesting thing about this workshop is that you have to make use of the type comparison 
+operator (instanceof) between the parent class CommissionEmployee and its subclass 
+BasePlusCommissionEmployee. The problem arise in the overloaded toString() method
+that is present in both the parent and the child class. CommissionEmployee has its own way of calculating
+paymentAmount in its getPaymentAmount() method, that i have embedded in to its toString method. The
+Child BasePlusCommissionEmployee uses super.toString() to invoke its parent toString() method in its own 
+overrided toString() method and then add on additional information such the child's own getPaymentAmount()
+method which has another way calculating payment Amount. I have to use an if else statement and the
+(instanceof) operator to make sure the right getPaymentAmount() shows up in the toString method
+of the child class when it is the instance of the child class. The same thing goes for throw and catching
+exception in the constructor. If both the parent and the child constructor throws an exception
+the message of the parent's exception will be output to console, but if it is the instance of the child
+you want to catch the exception throw by the child instead of the parent for the message to be 
+consistance with the actual exception. 

@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"w3.student","c":"StudentAdvance","l":"StudentAdvance(int, int, String)","u":"%3Cinit%3E(int,int,java.lang.String)"},{"p":"w3.student","c":"StudentAdvance","l":"toString()"}];updateSearchResults();

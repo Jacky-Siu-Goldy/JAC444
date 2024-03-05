@@ -1,0 +1,28 @@
+/**********************************************
+Workshop # 5
+Course: JAC444 - Semester Winter 2023
+Last Name: Siu
+First Name: Chun Kit Jacky
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-03-05
+**********************************************/
+
+In this workshop I created a computerized version of the game Mad Libs.
+I had a lot of difficulty figure out how to capture the token using Regex,
+but finally i figure out what was causing the problem was ^ (begin) and $(end);
+The text that comes from the file has been appended into a single block of String, that's
+is why regex with ^ and $ won't work. That is just my guess.
+so I did it like this "(<([a-zA-Z'-]+)>)", the inside bracket is group(2) allows
+me to capture the inside of the token < >, at the same time capture the whole token,
+and have inputted word or phrase take its place.
+Originally I used Scanner(file), while something.hasNextLine() and something.nextLine
+to read the file. The problem is that it doesn't capture the newLine character
+so everything appear in a single line when appended. It was solved at first by appending 
+a newLine character right after a line of text from the file had been appended. This created
+another problem what if the last line of the text doesn't have a newLine character at the end,
+you would have been appending a newLine character wrongly. This problem was solved after
+I searched online and I discovered Files.readString(path). It reads the whole text with out using
+a while loop, and best of all it capture the newLine character as well.

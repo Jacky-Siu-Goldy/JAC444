@@ -1,0 +1,34 @@
+/**********************************************
+Workshop # 7
+Course: JAC444 - Winter 2023
+Last Name: Siu
+First Name: Jacky Chun Kit 
+ID: 134663186
+Section: NAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature
+Date: 2023-03-24
+**********************************************/
+
+In this workshop we worked on sharing similar component layout between
+between different Window to reduce the amount of GUI code we have to
+write. I created a pane called AddressPane and was able to use it in
+App1 and App2 that I've created. App1 was not too difficult to create
+as it just involves creating the AddressPane and adding and positioning
+the AddressPane on the pane of the scene of the Primary Stage. I just need to add
+one more component which is the combo box and position it above the 
+AddressPane. I couldn't follow the dimension exactly for both App but
+I was able to make them look close enough. For App2 there was a lot more
+code to write and i followed the MVC model. The code that I did for 
+App2 is very Similar to the example code shown in the lecture with some minor
+difference. I study the Sample code and made a discovery that I wouldn't know
+it works if i had not seen it. In the GroceryListApp there is a private member
+object called model of ItemList. Model was pass to the constructor of GroceryListView
+as an argument. The GroceryListView class also have private member object name model
+of the ItemList class. the constructor initialize model with the argument model that
+was passed to it. What is interesting is that the model of GroceryListView synchronize with
+the changes in the model of GroceryListApp, having only been pass to view only once
+through the contructor. There was no need for a setter of model to update the model
+of GroceryListApp. Every Changes to the model of GroceryListApp is registered internally
+by GroceryListView. So that is What I found so strange and interesting about it.
+
